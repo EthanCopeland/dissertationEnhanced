@@ -1,0 +1,179 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 70%;
+  width: 100%;
+  background-color: #3498db;
+  position: absolute;
+  right: -34%;
+  border-radius: 6px;
+  z-index: 1;
+  transition: all 400ms ease-in-out;
+  cursor: pointer;
+  box-shadow: 0px 0px 12px 2px #000;
+}
+
+.Apps {
+  padding:50px;
+}
+
+.login-header {
+  padding-bottom: 50px;
+}
+
+.logo {
+  width: 350px;
+}
+
+#nav-box {
+  width: 100%;
+
+  display: inline-block;
+  text-align: center;
+
+  background-color: #E8E8E8;
+}
+
+#navbar {
+  width: fit-content;
+
+  margin: auto;
+  
+  display: inline-block;
+  list-style-type: none;
+  text-align: center;
+
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+#navbar li {
+  float: left;
+}
+
+#navbar li a {
+  display: block;
+
+  color: #263645;
+  text-decoration: none;
+
+  text-align: center;
+  padding: 14px 16px;
+}
+
+#navbar li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+#navbar li a.active {
+  color: #193E61;
+  font-weight: bold;
+}
+
+#navbar li a.active:hover {
+  color: #263645;
+}
+
+.NarrowNav {
+	display: none;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+}
+
+h1 {
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 2em;
+  font-weight: 400;
+}
+
+.form{
+  color:#000;
+}
+.login-header{
+  color: #000;
+}
+
+@media screen and (max-width: 600px) {
+  #navbar {
+    width: 28%;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+	nav ul {
+		list-style: none;
+		text-align: center;
+	}
+	nav ul li {
+		display: block;
+	}
+  #navbar li a {
+    display: block;
+    color: #263645;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 1px;
+  }
+	#nav-box {
+		display: none;
+	}
+	.NarrowNav {
+		display: block;
+	}
+}

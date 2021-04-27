@@ -1,0 +1,52 @@
+#navy {
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+    background-color: #263645;
+    
+    height: 2px;
+    border: none;
+}
+
+#blue {
+    margin-top: 50px;
+
+    background-color: #80BFFC;
+
+    height: 2px;
+    border: none;
+}
+
+#green {
+    margin-top: 50px;
+
+    background-color: #7FC982;
+
+    height: 2px;
+    border: none;
+}
+
+.about-header {
+    font-weight: 400;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 2em;
+
+    color: #80BFFC;
+
+    margin: 0 auto;
+
+    justify-content: center;
+}
+
+#header {
+    font-weight: 400;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 2em;
+
+    color: #263645;
+
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 50px;
+    justify-content: center;
+}

@@ -1,0 +1,95 @@
+
+
+
+#this {
+    width: 80%;
+}
+
+#light {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 2em;
+    font-weight: 350;
+    color: #80BFFC;
+}
+
+#centered{
+    width: 60%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.parallax {
+    background-image: url("../images/parallax.jpg");
+    min-height: 400px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#welcome-paragraph {
+    margin: 4%;
+}
+
+#parallax-h1 {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: 100;
+    color: white;
+}
+
+
+
+a {
+    color: #737373;
+}
+
+a:hover {
+    color: #263645;
+}
+
+.background {
+    background-color: #193E61;
+    min-height: 400px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+header {
+    text-align: center;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .footer-content {
+        display: none;
+    }
+    #hidden {
+        display: none;
+    }
+}

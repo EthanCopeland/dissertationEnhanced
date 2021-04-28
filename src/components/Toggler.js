@@ -16,8 +16,8 @@ const Button = styled.button`
   width: 5rem;
   height: 2.5rem;
   outline: none;
-  background-color: #fff;
-  border-color: #000;
+  background-color: #f5f5f5;
+
   }
 `;
 

@@ -6,3 +6,8 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.logo{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}

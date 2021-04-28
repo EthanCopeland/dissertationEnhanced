@@ -5,6 +5,7 @@ import { useDarkMode } from "./components/useDarkMode";
 import { GlobalStyles } from "./components/globalStyles";
 import { lightTheme, darkTheme } from "./components/Themes";
 import Toggle from "./components/Toggler";
+import FontSizeChanger from 'react-font-size-changer';
 import './App.scss';
 
 // import NavLink from "./navbar/navbar.js";
@@ -60,6 +61,7 @@ import PageNotFound from './PageNotFound.js';
 // }
 
 
+
 const App = () => {
     const [theme, themeToggler] = useDarkMode();
     const themeMode = theme === 'light' ? lightTheme : darkTheme;
@@ -101,6 +103,23 @@ const App = () => {
                         <br/>
                         <Toggle theme={theme} toggleTheme={themeToggler} />
                         <p>Switch to Dark Mode!</p>
+                        <FontSizeChanger 
+                        targets={['#target']}
+                        customButtons={{
+                            up: <span style={{'fontSize':'30px'}}>A</span>,
+                            down: <span style={{'fontSize': '20px'}}>A</span>,
+                            style: {
+                                backgroundColor: '#fff',
+                                color: '#263645',
+                                WebkitBoxSizing: 'border-box',
+                                WebkitBorderRadius: '5px',
+                                width: '45px',
+                                Padding: '10px',
+                                verticalAlign: 'baseline',
+                            },
+                            buttonsMargin: 5
+                        }}/>
+                        <p id="target">Change Font Size</p>
 
                         <Switch>
                             <Route exact path="/">
@@ -124,6 +143,7 @@ const App = () => {
                         </Switch>
 
                         <br />
+                        
 
                         <Footer />
                     </div>
@@ -131,6 +151,8 @@ const App = () => {
             </ThemeProvider>
         </Router>
     );
+
+
 }
 
 export default App;

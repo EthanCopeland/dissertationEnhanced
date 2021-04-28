@@ -5,7 +5,9 @@ import './header.css';
 function Navbar() {
 	return (
 		<header>
-            <a href="/dissertation/enhancedv2"><img src={logo} className="logo" alt="logo"/></a>
+			<br/>
+            <a id="header-padding" href="/dissertation/enhancedv2"><img src={logo} className="logo" alt="logo"/></a>
+			<br/>
 		</header>
 	)
 }

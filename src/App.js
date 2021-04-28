@@ -63,8 +63,9 @@ import PageNotFound from './PageNotFound.js';
 
 
 const App = () => {
-    const [theme, themeToggler] = useDarkMode();
+    const [theme, themeToggler, mountedComponent] = useDarkMode();
     const themeMode = theme === 'light' ? lightTheme : darkTheme;
+    if(!mountedComponent) return <div/>
     return (
         <Router basename="/dissertation/enhancedv2">
             <ThemeProvider theme={themeMode}>
@@ -102,20 +103,19 @@ const App = () => {
                         <br/>
                         <br/>
                         <Toggle theme={theme} toggleTheme={themeToggler} />
-                        <p>Switch to Dark Mode!</p>
+                        <p>Switch Between Dark and Light Mode!</p>
                         <FontSizeChanger 
                         targets={['#target']}
                         customButtons={{
                             up: <span style={{'fontSize':'30px'}}>A</span>,
                             down: <span style={{'fontSize': '20px'}}>A</span>,
                             style: {
-                                backgroundColor: '#fff',
-                                color: '#263645',
+                                backgroundColor: 'transparent',
                                 WebkitBoxSizing: 'border-box',
                                 WebkitBorderRadius: '5px',
+                                textAlign: 'center',
                                 width: '45px',
-                                Padding: '10px',
-                                verticalAlign: 'baseline',
+                                verticalAlign: 'bottom',
                             },
                             buttonsMargin: 5
                         }}/>

@@ -107,30 +107,11 @@ h1 {
   font-size: 2em;
   font-weight: 400;
 }
-// .font-size-changer {
-//   margin-top: 25px;
-//   margin-left: 8px;
-//   line-height: 12px;
-//   position: relative;
-//   display:inline;
-//   list-style-type: none;
-// }
-// li{
-//   display: inline;
-// }
 
-
-// #small-font-changer{
-//   font-size: x-small;
-// }
-// #regular-font-changer{
-//   font-size: medium;
-// }
-// #large-font-changer{
-//   font-size: x-large;
-// }
-
-
+a[href^="mailto:"]
+{ 
+  color: #fff;
+}
 .form{
   color:#000;
 }
@@ -140,10 +121,10 @@ h1 {
 
 @media screen and (max-width: 600px) {
   #navbar {
-    width: 28%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
-    display: inline-block;
+    display: inline-grid;
     list-style-type: none;
     text-align: center;
     margin: 0;
@@ -154,16 +135,16 @@ h1 {
 		list-style: none;
 		text-align: center;
 	}
-	nav ul li {
-		display: block;
-	}
-  #navbar li a {
-    display: block;
-    color: #263645;
-    text-decoration: none;
-    text-align: center;
-    padding: 10px 1px;
-  }
+
+#navbar li a {
+
+  background-color: #333333;
+  color: #bac1c7;
+  text-decoration: none;
+
+  text-align: center;
+
+}
 	#nav-box {
 		display: none;
 	}

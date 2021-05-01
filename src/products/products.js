@@ -18,7 +18,7 @@ function Products() {
 				<div className="pure-u-1-1">
 
 					<h1 className="header">Gift Collections<br /><br /></h1>
-					<p>Everything you'll need to get started all in one box.</p>
+					<p id="target">Everything you'll need to get started all in one box.</p>
 					<div className="product">
 						{products.map(product => {
 							return (
@@ -26,7 +26,9 @@ function Products() {
 									<img className="productsImages" src={product.image} alt={`Preview of ${product.title}`} />
 									<h3>{product.title}</h3>
 									<p className="desc" id="target">{product.description}</p>
-									<p className="desc" id="target">${product.price}</p>
+									<p className="desc" id="target">{product.detailedDesc}</p>	
+									<p className="desc" id="target">£{product.price}</p>
+													
 									<p>
 										<button className="snipcart-add-item"
 											data-item-id={product.id}
@@ -49,6 +51,9 @@ function Products() {
 			</section>
 		</div>
 	);
+	
 }
+
+
 
 export default Products;

@@ -153,5 +153,15 @@ button {
 }
 
 @media (max-width:768px){
-	
+	.product {
+		display: inline-block;
+		width: 80%;
+		align-items: center;
+		margin: auto;
+		background-color: white;
+		border-radius: 10px;
+	}
+	.width {
+		width: 100%;
+	}
 }

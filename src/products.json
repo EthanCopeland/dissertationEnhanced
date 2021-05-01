@@ -2,28 +2,32 @@
     {
         "title": "Starter Winter Bundle",
         "id": "starter_bundle",
-        "description": "Get our Starter Bundle with our basic products.",
+        "description": "Get our Starter Bundle with our introducing products to try us out.",
+        "detailedDesc": "The started bundle includes a set of Blue and Red Hats, Gloves, and Scarves made with 100% cotton to give a comfort feel for you.",
         "price": "20.00",
         "image": "./images/sticker-3pack.jpg"
     },
     {
         "title": "Standard Winter Bundle",
         "id": "standard_bundle",
-        "description": "Get our Standard Bundle for to cover all the bases.",
+        "description": "Get our Standard Bundle for to cover all the your needs.",
+        "detailedDesc": "The Standard bundle includes a set of Blue and Red Hats, Gloves, and Scarves made with 100% wool to keep you warm for the winter.",
         "price": "30.00",
         "image": "./images/sticker-3pack.jpg"
     },
     {
         "title": "Mega Winter Bundle",
         "id": "mega_bundle",
-        "description": "Stand out from the rest with our Mega Bundle.",
+        "description": "Stand out from the rest with our Mega Bundle this winter.",
+        "detailedDesc": "The Mega bundle includes one set of Blue, Red, white and black Hats, Gloves, and Scarves made with 100% wool in this deluxe deal.",
         "price": "40.00",
         "image": "./images/sticker-3pack.jpg"
     },
     {
         "title": "Family Winter Bundle",
         "id": "family_bundle",
-        "description": "Here is our Family bundle for everyone this winter.",
+        "description": "Here is our Family bundle for everyone this winter to all stay warm.",
+        "detailedDesc": "The Family bundle includes two sets of Blue, Red, white and black Hats, Gloves, and Scarves made with 100% wool for everyone to enjoy.",
         "price": "60.00",
         "image": "./images/sticker-3pack.jpg"
     }

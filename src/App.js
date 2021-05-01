@@ -119,7 +119,7 @@ const App = () => {
                             },
                             buttonsMargin: 5
                         }}/>
-                        <p id="target">Change Font Size</p>
+                        <p>Change Font Size</p>
 
                         <Switch>
                             <Route exact path="/">

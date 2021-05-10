@@ -1,3 +1,11 @@
+# The Standard Edition of the website URL
+
+http://unn-w18009982.newnumyspace.co.uk/dissertation/standardv2/
+
+# The Enhanced Edition of the website URL
+
+http://unn-w18009982.newnumyspace.co.uk/dissertation/enhancedv2/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
